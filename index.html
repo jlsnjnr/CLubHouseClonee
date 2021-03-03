@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clone ClubHouse</title>
+
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <style>
+    
+    
+
+    *, :root, button {
+      font-family: 'Poppins', sans-serif;
+                letter-spacing: -0.2px;
+
+            }
+
+    main {
+        border-top-left-radius: 2.3rem;
+        border-top-right-radius: 2.3rem;
+    }
+
+
+            main > div p {
+                background-color: #ddd;
+                border-radius: 42%;
+                width:85px;
+                height: 85px;
+                text-indent: -9999px;
+                display: block;
+                overflow: hidden;
+            }
+
+            main > div {
+                align-items: center;
+                justify-items: center;
+            }
+
+  </style>
+
+
+</head>
+<body class="m-auto h-screen flex flex-col bg-yellow-50 sm:max-w-md">
+        
+  <div class="w-full bg-yellow-50 p-4">
+            <header class="w-full flex justify-between">
+                <div class="flex items-center text-lg font-normal">
+                    <span class="w-6 h-6 mr-1">
+                      <img src="./arrow.svg" alt="">
+                    </span>
+                    Todas as salas
+                </div>
+                <div class="flex items-center">
+                    <div class="w-7 h-7 mr-9">
+                      <img src="./file.svg" alt="">
+                    </div>
+                    <img
+                        class="w-12 h-12 rounded-full"
+                        src="./user.jpg"
+                        alt=""
+                    />
+                </div>
+            </header>
+        </div>
+
+        <main class="bg-white rounded-t-3xl w-full shadow px-6 py-4">
+            <h1 class="mb-4">🔴 Como utilizar Tailwind css</h1>
+            
+            <div class="grid gap-4 grid-cols-3">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+              <img class="rounded-full w-24 h-24" src="./user.jpg" alt="">
+            </div>
+        </main>
+
+        <footer class="fixed bottom-0 m-auto p-3 flex items-center justify-between sm:max-w-md w-full bg-white">
+
+            <button class="rounded-full bg-gray-200 py-1.5 px-4 flex items-center">
+                <span class="mt-0.5">✌️</span>
+                <span class="text-red-400 ml-2 text-xs">Sair desta sala</span>
+            </button>
+            
+            <div class="flex items-center">
+                <button class="p-2 rounded-full bg-gray-200 mr-4">
+                    <img class="w-8 h-8" src="./plus.svg" alt="">
+                </button>
+
+                <button class="p-1.5 rounded-full bg-gray-200">
+                    <img class="w-8 h-8" src="./hand.svg" alt="">
+                </button>
+            </div>
+
+        </footer>
+
+    </body>
+</html>
